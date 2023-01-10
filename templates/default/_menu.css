@@ -1,0 +1,18 @@
+/* DROP-DOWN MENU */
+#head2 .container{overflow:visible;height:43px;}
+#menu1 ul{height:43px;white-space:nowrap;}
+#menu1 li{position:relative;white-space:nowrap;}
+#menu1 li:hover{background:url('img/menu1_bg_hover.png') repeat-x;color:#00BFFF;}
+#menu1 li a{display:block;height:30px;}
+* html #menu1 li a{display:block;height:43px;}
+#menu1 li a:hover{background:none;}
+#menu1 li li:hover, #menu1 li .selected{border-right:0;border-left:0;}
+
+#menu1 li ul{display:none;height:auto;float:left;z-index:10;position:absolute;left:-1px;top:43px;border-left:3px solid #95cc2f;border-right:0;}
+#menu1 li:hover ul{display:block;}
+#menu1 li:hover ul ul{display:none;}
+#menu1 li ul li{position:relative;clear:left;float:left;width:15em;border-bottom:1px dotted #00BFFF;border-left:0;border-right:0;background:url('img/menu_drop.png');}
+#menu1 li ul li:hover{background:url('img/menu1_bg_hover.png') repeat-x;}
+#menu1 li ul li a{height:auto;margin:0;padding:10px 20px 10px 15px;font-weight:normal;background:none;text-shadow:none;}
+#menu1 li ul li a:hover, #menu1 li ul .selected a{text-decoration:underline;}
+#menu1 .selected  ul li a, #menu1 li ul .selected a{background:none;}

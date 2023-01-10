@@ -1,0 +1,168 @@
+/*
+Quick.Cms default stylesheet
+More about design modifications - http://opensolution.org/Quick.Cms/docs/?id=en-design
+*/
+/* GLOBAL STYLES */
+body,h1,h2,h3,h4,h5,h6,p,form,fieldset,img,ul{margin:0;padding:0;border:0;}
+body,table{color:#d6d6d6;font-family:Arial, Helvetica, sans-serif;}
+body{font-size:12px;padding:30px 0 60px;background: #191a1b url(img/bg.gif) repeat-x;}
+
+.input, select, textarea{padding:2px;border-width:1px;border-style:solid;font-size:1em;border-color:#aeb7bb #d8dbde #d8dbde #aeb7bb;font-family:Verdana}
+.submit{padding:5px 14px;border-width:1px;border-style:solid;border-color:#abdc50 #62881c #62881c #abdc50;background:#77a422;color:#fff;font-weight:bold;font-size:1em;font-family:Verdana}
+.submit:hover{background:#8abe27;cursor:pointer;}
+* html .submit{padding:3px 1px !important;}
+* html .input{height:28px;}
+.form{background:#f3f3f3;border:1px solid #c8cccf;}
+.form label{font-size:1em;color:#01476f;font-weight:bold;}
+.hide{display:none;}
+
+p{padding: 10px 0;text-align: justify;}
+a{text-decoration: none;color: #f8821b;}
+a:hover{text-decoration: underline;}
+a:focus { outline:none;}
+.clear{clear:both;height:0px;font-size:0px;line-height:0px;}
+.skiplink{position:absolute;top:-500px;left:0px;overflow:hidden;}
+.left{text-align:left;}
+.center{text-align:center;}
+.right{text-align:right;}
+
+#container{margin: 0 auto;width: 900px;}
+#header{background:#002d41;}
+
+
+
+/* LOGO, HEADER BACKGROUND AND SLOGAN */
+#head1{height: 46px;background: #515e6e url(img/header.jpg) no-repeat;}
+#head1 #title{float:left;height: 46px;padding-left: 20px;font: normal 19px/38px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#head1 #title a,#head1 #title a:hover{text-decoration:none;color:#fff;}
+#head1 #title span{font: normal 19px/38px "Trebuchet MS", Arial, Helvetica, sans-serif;letter-spacing: -1px;color:#fff;}
+#head1 #slogan{float:left;height: 46px;}
+#head1 #slogan span{padding-left:20px;color: #fae7d5;font: normal 16px/38px "Trebuchet MS", Arial, Helvetica, sans-serif;letter-spacing: -1px;}
+#head1 strong a, #head1 strong a:hover{text-decoration: none;color:#fff;}
+
+/* HEADER WITH TOP MENU BELOW LOGO */
+#head2{background: #637383 url(img/menu.jpg) no-repeat;}
+
+/* MENU TOP */
+#menu1{height: 46px;text-align: right;}
+#menu1 ul{list-style: none;padding: 0 60px 0 0;}
+#menu1 ul li{display: inline;padding: 0;}
+#menu1 ul li a{padding: 0 0 0 50px;font-size: 14px;line-height: 46px;text-transform: uppercase;color:#fff;}
+#menu1 ul li a:hover{text-decoration: none;color: #fae7d5;}
+
+/* BODY STYLES - LEFT AND RIGHT COLUMN */
+#body{height: 1%;padding: 378px 40px 39px 40px;background: #1c1e20 url(img/image.jpg) no-repeat;}
+
+/* LEFT COLUMN STYLES */
+#column .type{margin-top:15px;padding:7px 0 7px 10px;color: #86b226;font-size:1.75em;letter-spacing:1px;}
+#column {float: left;width: 220px;background: #3d4752 url(img/bg2.gif) repeat-x top;}
+#column2{padding: 10px 15px 0 15px;background: url(img/sidebar.jpg) no-repeat top;}
+
+/* LEFT MENU */
+#menu2 .sub1{margin:0;padding:0;border:0;background:none;}
+#menu2 .sub1 li{padding:2px 0 2px 24px;background:url(img/arrow2.gif) no-repeat 11px 10px;}
+#menu2 .sub1 a{display:block;width:100%;padding:2px 0;}
+#menu2{}
+#menu2 ul{list-style: none;padding: 10px 5px 40px 10px;}
+#menu2 ul li{padding: 0 0 0 18px;background: url(img/arrow.gif) no-repeat;}
+#menu2 ul li a{padding: 0;line-height: 22px;}
+#menu2 .selected > a:first-child{color:#86b226;background:none;}
+
+/* RIGHT COLUMN STYLES */
+#content{padding: 10px 0 30px 0;}
+#right{float: right;width: 560px;background: #3d4752 url(img/bg2.gif) repeat-x top;}
+#right2{padding: 10px 15px 0 15px;background: url(img/right.jpg) no-repeat top;}
+
+/* PAGE TITLE */
+#page h1{margin-top:15px;font: normal 24px "Trebuchet MS", Arial, Helvetica, sans-serif;color: #86b226;}
+
+/* NAVIGATION PATH - TREE */
+#page h4{position:absolute;top:504px;padding:2px 0;color:#868f94;background:inherit;font-size:1em;}
+#page h4 a{background-color:inherit;color:#868f94;text-decoration:none;font-weight:normal;}
+#page h4 a:hover{text-decoration:underline;}
+*:first-child+html #page h4{top:-5px;} /* IE 7 hack */
+* html #page h4{top:-5px;} /* IE 6 hack */
+
+/* PAGE CONTENT */
+#page div.content{padding-top:5px;font-size:1.083em;line-height:1.5em;}
+#page div.content ul, .subpagesList li ol{margin:0 0 0 30px;padding:0;}
+#page div.content li{margin:8px 0;padding:0;border-left:0;}
+#page div.content p{padding-bottom:10px;}
+
+.pages{padding:8px 0;text-align:right;font-size:1.083em;}
+.pages ul, .pages li{display:inline;}
+.pages li{padding:0 2px;}
+.pages a, .pages strong{padding:0 1px;font-size:1.083em;}
+
+/* IMAGES STYLES */
+.imagesList{list-style:none;}
+.imagesList li{margin:0 0 15px 0;background:inherit;color:#fae7d5;text-align:center;}
+.imagesList li div{text-align:center;}
+.subpagesList li img, .imagesList li img{padding:1px;border:2px solid #868f94;}
+.subpagesList li img:hover, .imagesList li img:hover{border-color:#78a622;}
+
+#imagesList1{float:left;margin:9px 20px 0 0;}
+#imagesList2{clear:right;float:right;margin:8px 0 0 15px;}
+
+/* FILES LIST STYLES */
+#filesList{width:100%;float:left;margin:15px 0 5px;list-style:none;vertical-align:middle;border-left:2px solid #868f94;}
+#filesList li{width:100%;float:left;clear:left;margin:5px 0 5px 10px;padding-left:10px;}
+#filesList li a{background:inherit;}
+#filesList li a:hover{background:inherit;}
+#filesList img{margin:0 8px 0 0;vertical-align:middle;}
+#filesList em{padding-left:2px;background:inherit;color:#868f94;background:inherit;}
+
+/* SUB PAGES LIST STYLES */
+.subpagesList{float:left;width:100%;margin:7px 0;list-style:none;}
+.subpagesList li{clear:left;float:left;width:96%;margin:10px 0;padding:13px 2%;/*border-left:2px solid #868f94;*/}
+* html .subpagesList li{width:100%;}
+.subpagesList li .photo{float:left;margin:0 18px 5px 0;}
+.subpagesList li h2{padding-bottom:10px;}
+.subpagesList li h2, .subpagesList li h2 a{color:#598601;font-size:1.25em;font-weight:normal;background:none;text-decoration: underline;}
+.subpagesList li h2 a:hover{color:#f8821b;background:none;}
+.subpagesList li div.description{font-weight:normal;font-size:1em;line-height:1.4em;}
+.subpagesList li ul, .subpagesList li ol{float:left;width:100%;margin:5px 0 0 30px;padding:0;}
+.subpagesList li li{padding:0;border-left:0;background:none;}
+.subpagesList li ul{list-style:disc;}
+.subpagesList li ol{list-style:decimal;}
+.subpagesList li p{padding-bottom:10px;}
+
+/* OPTIONS LINK */
+#options{clear:both;float:right;width:100%;margin:10px 10px;background:inherit;color: #fae7d5;font-size:1em;text-align:right;}
+#options a{padding:0 10px 0;background:inherit;}
+#options a:hover{background:inherit;}
+#options .back, #options .print{float:right;}
+#options .print a{border-left:2px solid #868f94;}
+
+.message{padding:50px 0;text-align:center;}
+.message h3{background:inherit;color:#cc0000;font-weight:normal;font-size:2.4em;}
+
+/* FOOTER - SITE AND SCRIPT COPYRIGHTS STYLES */
+#foot .container{width:900px;margin:0 auto;padding:22px 0;overflow:hidden;}
+#foot{clear: both;height: 104px;background: url(img/footer.gif) repeat-x top;}
+#foot p{line-height: 40px;}
+#foot p,#foot a,#foot a:hover{color:#fff;text-decoration:none;}
+#foot a:hover{text-decoration:underline;}
+#copy{float:left;padding:0 25px;color:#fff;}
+.foot{float:right;padding:0 25px;}
+.clearing{clear: both;height: 1px;overflow: hidden;}
+
+@media print{
+  /* PRINT STYLES */
+  body{margin:1cm 0;background:#fff;color:#000;}
+  #container{width:16cm;height:auto;background:#fff;}
+  #body{padding-top:0.5cm; padding-bottom:0.5cm;}
+  #head2 .container, #head2{height:auto;}
+  #logo{padding:0 0 0.2cm;}
+  #logo #title{padding:0;}
+  #logo #title a span, #logo #title a, #logo #slogan, #logo #title a strong, #logo #title a span{color:#000;background:inherit;}
+
+  .subpagesList li img, .imagesList li img, .subpagesList li img:hover, .imagesList li img:hover{border:1px solid #444;}
+  #header .container, #body .container, #foot .container, #content{background:#fff;float:none;width:16cm;padding:0;margin:0;}
+  #column, #head1, #back, #page .tS{display:none;}
+  a, #head2, #logo h2, #page h1, #foot, .subpagesList li, #page h3, #filesList em, .imagesList li, .form label, table, .message h3{background:inherit;color:#000 !important;}
+  .submit{border-color:#808080;background:#d4d0c8;color:#000;}
+}
+
+/* PLUGINS */
+

@@ -1,0 +1,12 @@
+Copyrights belong to OpenSolution (http://opensolution.org/) company. The plugin is free. OpenSolution does not give any warranty for the plugin nor does it take any responsibility for any damage it might cause. 
+
+You can: 
+1. Use the plugin for your own purposes, including on commercial sites
+
+You can't: 
+1. Share or make available plugin PHP code to third parties as a whole or parts of it.
+2. Remove the plugin author info
+
+Any of these conditions can be waived if you get permission from the copyright holder. Violating terms of this addon's license without author's consent will be punishable by a penalty charge of 281 EUR. 
+
+If you have any questions about license contact with OpenSolution - http://opensolution.org/?p=contact

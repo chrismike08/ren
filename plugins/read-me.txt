@@ -1,0 +1,46 @@
+------------------------------
+Quick.Cms.Add by OpenSolution.org
+www.opensolution.org
+------------------------------
+
+Requirements:
+http://opensolution.org/Quick.Cms/docs/?id=en-requirements#1
+
+How to install the script:
+http://opensolution.org/Quick.Cms/docs/?id=en-requirements#2
+
+How to log on to the admin panel:
+http://opensolution.org/Quick.Cms/docs/?id=en-requirements#4
+
+How to use the script, modify its design and the script itself, tips & tricks etc.:
+http://opensolution.org/Quick.Cms/docs/
+
+License
+------------------
+Original clean (without plugins) Quick.Cms is based on license "Creative Commons Attribution 2.5" (more info: http://opensolution.org/license.html). Plugins installed in script are based on other licenses. Read the following:
+
+OPENSOLUTION PLUGINS
+License of OpenSolution plugins (bugFixesChecker, dropDownMenu, filesManager, download, simpleNews, simpleBackup, simpleCounter, templateEditor, googleAnalytics). Plugins are included in many files. Read below.
+
+You can't: 
+- Share or make available plugin PHP code to third parties as a whole or parts of it. Best solution is to not share Quick.Cms.Add with third parties but if you must then compare differences between Quick.Cms and Quick.Cms.Add and you will find which code you shouldn't share.
+- Remove the plugin author info.
+
+Any of these conditions can be waived if you get permission from the copyright holder.
+If you want share plugin code or install this script to someone else then contact OpenSolution:
+http://opensolution.org/contact
+In most cases we give exceptions without charge.
+
+OTHER PLUGINS
+Licenses of other plugins (mlbox, tinymce, valums-file-uploader, codemirror and PhpConcept library) installed in the script are located in "plugins/" directory.
+
+Backup
+------------------
+Make a copy of the "database/" directory from time to time. This directory contains pages' data, translations and configuration files.
+Most hosting providers make backup copies. Contact your hosting provider to get more info.
+
+Important links
+------------------
+http://opensolution.org/ - OpenSolution home page
+http://opensolution.org/catalogue/ - Catalogue of websites based on Quick.Cms or Quick.Cart scripts
+http://opensolution.org/Quick.Cms/forum/ - Quick.Cms support forum

@@ -1,0 +1,190 @@
+/*
+Quick.Cms simplebright stylesheet
+More about design modifications - http://opensolution.org/Quick.Cms/docs/?id=en-design
+*/
+/* GLOBAL STYLES */
+body,h1,h2,h3,h4,h5,h6,p,form,fieldset,img,ul,ol{margin:0;padding:0;border:0;}
+body,table{color:#8c8b8b;font-size:0.75em;font-family:Tahoma, Arial, sans-serif;}
+
+body{padding:0;background:url('img/bg.jpg') repeat-x;text-align:center;}
+
+.input, select, textarea{padding:2px;border-width:1px;border-style:solid;font-size:1em;border-color:#e2e2e2;font-family:Verdana}
+.submit{float:right;padding:4px 14px;border-width:1px;border-style:solid;border-color:#ff7800;background:#ff7800;color:#fff;font-weight:bold;font-size:1em;font-family:Verdana}
+.submit:hover{background:#464646;border-color:#464646;cursor:pointer;}
+* html .submit{padding:3px 1px !important;}
+* html .input{height:28px;}
+.form{padding:0px;margin:0px;}
+.form label{font-size:1em;color:#8c8b8b;font-weight:bold;}
+.hide{display:none;}
+
+a{color:#ff7800;text-decoration:underline;}
+a:hover{color:#666;text-decoration:underline;}
+
+.skiplink{position:absolute;top:-500px;left:0px;overflow:hidden;}
+
+#container{position:relative;width:100%;margin:0 auto;padding:0;}
+#body, #foot{float:left;width:100%;margin:0 auto;padding:0;}
+#head1, #head2, #head3 {width:1000px;margin:0 auto;text-align:left;}
+#body .container, #foot .container{width:1000px;margin:0 auto;text-align:left;}
+
+/* LOGO, HEADER BACKGROUND AND SLOGAN */
+#head1{position:relative;clear:both;padding-top:20px;}
+#head1 .container{height:90px;background:#fff;}
+#logo{float:left;padding:10px 10px 0px 20px;}
+#logo #title{float:left;}
+#logo #title a{color:#464646;font:bold 2.917em 'Trebuchet MS';text-transform:uppercase;text-decoration:none;}
+#logo #title a span{color:#464646;font-size:0.717em;}
+#logo #title a strong, #logo #title a strong span{color:#ff7800;}
+#logo #slogan{float:left;clear:left;padding:0 0 0 4px;background:inherit;color:#ff7800;font-size:1.067em;}
+* html #logo #slogan{width:100%;} /* IE 6 hack */
+
+/* HEADER WITH TOP MENU BELOW LOGO */
+#head2{}
+#head2 .container{overflow:hidden;height:44px;background:url('img/nav.jpg') repeat-x;}
+
+/* MENU TOP */
+#menu1{font-family:'Trebuchet MS';text-transform:uppercase;}
+#menu1 ul{float:left;height:100%;margin:0;list-style:none;}
+#menu1 li{float:left;padding:0;background:url('img/sep.png') no-repeat right;}
+#menu1 li:hover, #menu1 .selected{}
+#menu1 li.l1{border-left:none;}
+#menu1 li a{float:left;height:32px;padding:13px 30px 0;color:#efefef;font-size:1.17em;text-decoration:none;text-shadow:0 1px 1px #000;}
+#menu1 li a:hover, #menu1 .selected a{color:#fff;text-shadow:none;}
+
+
+#head3{}
+#head3 .container{margin:10px 0px;background:url('img/shadow.png') no-repeat bottom;height:402px;text-align:center;padding-top:5px;}
+
+/* BODY STYLES - LEFT AND RIGHT COLUMN */
+#body{clear:both;margin:10px 0px 0px;}
+#body .container{overflow:hidden;}
+
+/* LEFT COLUMN STYLES */
+#column{float:left;width:220px;margin-right:20px;}
+#column .type, #simpleNews .type {color:#464646;font:normal 1.917em 'Trebuchet MS';text-transform:uppercase;border-bottom:1px solid #e2e2e2;border-top:1px solid #e2e2e2;padding:2px 0px 2px 10px;}
+#menu2{}
+
+
+/* LEFT MENU */
+#menu2 ul{list-style:none;margin:10px 0px;font-family:'Trebuchet MS';font-size:1.1em;}
+#menu2 li{padding:0px;}
+#menu2 a{display:block;width:190px;background:url('img/bullet.png') no-repeat left 8px;padding:10px 0px 10px 30px;color:#8c8b8b;text-decoration:none;}
+#menu2 a:hover, #menu2 .sub1 a:hover{color:#ff7800}
+#menu2 .selected > a:first-child{color:#ff7800}
+
+#menu2 .sub1{margin:0;padding:0;border:0;background:none;}
+#menu2 .sub1 li{padding:4px 0px 4px 30px;background:url('img/arrow.png') no-repeat 20px 10px;}
+#menu2 .sub1 a{display:block;background:none;width:100%;padding:2px 0;font-size:0.8em;border:0px;}
+
+/* RIGHT COLUMN STYLES */
+#content{float:left;width:760px;padding:0px 0 5px;text-align:center;}
+* html #content{width:760px;}
+* html #page{width:100%;}
+#page{position:relative;width:100%;margin:0 auto;text-align:left;}
+
+/* PAGE TITLE */
+#page h1{color:#ff7800;font:normal 1.917em 'Trebuchet MS';text-transform:uppercase;border-bottom:1px solid #e2e2e2;border-top:1px solid #e2e2e2;padding:2px 0px 2px 10px;}
+
+/* NAVIGATION PATH - TREE */
+#page h4, #page .date{position:absolute;top:-25px;padding:2px 0;color:#a6aeb3;background:inherit;font-size:1em;font-weight:normal;}
+#page h4 a{background-color:inherit;color:#a6aeb3;text-decoration:none;font-weight:normal;}
+#page h4 a:hover{text-decoration:underline;}
+* html #page h4{top:-5px;left:0;} * html #page .date{top:-5px;} /* IE 6 hack */
+*:first-child+html #page h4{top:-5px;left:0;} *:first-child+html #page .date{top:-5px;} /* IE 7 hack */
+
+#page .date{right:0px;}
+
+/* PAGE CONTENT */
+#page div.content{padding-top:5px;font-size:1.083em;line-height:1.5em;}
+#page div.content ul, #page div.content ol{margin:0 0 0 30px;padding:0;}
+#page div.content li{margin:8px 0;padding:0;border-left:0;}
+#page div.content p{padding-bottom:10px;}
+
+.pages{padding:8px 0;text-align:right;font-size:1.083em;}
+.pages ul, .pages li{display:inline;}
+.pages li{padding:0 2px;}
+.pages a, .pages strong{padding:0 1px;font-size:1.083em;}
+
+/* IMAGES STYLES */
+.imagesList{list-style:none;}
+.imagesList li{margin:0 0 15px 0;background:inherit;text-align:center;}
+.imagesList li div{text-align:center;}
+.subpagesList li img, .imagesList li img, .imagesGallery img, #subpagesGallery img{padding:1px;border:1px solid #e0e0e0;-webkit-box-shadow:0 0 5px rgba(0,0,0,.15);box-shadow:0 0 5px rgba(0,0,0,.15);}
+.subpagesList li img:hover, .imagesList li img:hover, .imagesGallery img:hover, #subpagesGallery img:hover{border-color:#aaa;}
+
+#imagesList1{float:left;margin:9px 20px 0 0;}
+#imagesList2{clear:right;float:right;margin:8px 0 0 15px;}
+
+
+/* FILES LIST STYLES */
+#filesList{width:100%;float:left;margin:15px 0 5px;list-style:none;vertical-align:middle;border-left:2px solid #c8cccf;}
+#filesList li{width:100%;float:left;clear:left;margin:5px 0 5px 10px;padding-left:10px;}
+#filesList li a{color:#ff7800;background:inherit;}
+#filesList li a:hover{color:#666;background:inherit;}
+#filesList img{margin:0 8px 0 0;vertical-align:middle;}
+#filesList em{padding-left:2px;background:inherit;color:#5d6771;background:inherit;}
+
+/* SUBPAGES LIST STYLES */
+.subpagesList{float:right;width:99%;margin:7px 0;list-style:none;}
+.subpagesList li{clear:left;float:left;width:95%;margin:10px 0;padding:13px 2%;border:1px solid #e0e0e0;-webkit-box-shadow:0 0 5px rgba(0,0,0,.15);box-shadow:0 0 5px rgba(0,0,0,.15);}
+* html .subpagesList li{width:100%;}
+.subpagesList li .photo{float:left;margin:0 18px 5px 0;}
+.subpagesList li h2{padding-bottom:10px;text-shadow:2px 2px 2px #d5d5d5;}
+.subpagesList li h2, .subpagesList li h2 a{color:#598601;font-size:1.25em;font-weight:normal;background:none;text-decoration:none;}
+.subpagesList li h2 a:hover{color:#01476e;background:none;text-decoration:underline;}
+.subpagesList li div.description{font-weight:normal;font-size:1em;line-height:1.4em;}
+.subpagesList li ul, .subpagesList li ol{float:left;width:96%;margin:5px 0 0 4%;padding:0;}
+.subpagesList li li{padding:0;border:0;background:none;-webkit-box-shadow:none;box-shadow:none;}
+.subpagesList li ul{list-style:disc;}
+.subpagesList li ol{list-style:decimal;}
+.subpagesList li p{padding-bottom:10px;}
+
+
+/* OPTIONS LINK */
+#options{clear:both;float:right;width:100%;margin:10px 10px;background:inherit;color:#7f7f66;font-size:1em;text-align:right;}
+*:first-child+html #options{width:95%;} /* IE 7 hack */
+#options a{padding:0 10px 0;color:#ff7800;background:inherit;}
+#options a:hover{color:#666;background:inherit;}
+#options .back, #options .print{float:right;}
+#options .print a{border-left:2px solid #c8cccf;}
+
+.message{clear:both;padding:50px 0;text-align:center;}
+.message h3{background:inherit;color:#cc0000;font-weight:normal;font-size:2.4em;}
+
+/* FOOTER - SITE AND SCRIPT COPYRIGHTS STYLES */
+#foot{clear:both;height:100px;color:#b2b2b2;font-size:1.083em;background:#eeeeee url('img/line.png') repeat-x top;}
+#foot .container{width:1000px;margin:0 auto;padding:40px 0;overflow:hidden;text-align:center;}
+#foot a{background:inherit;color:#464646;text-decoration:none;}
+#foot a:hover{color:#ff7800;text-decoration:underline;}
+
+
+@media print{
+  /* PRINT STYLES */
+  * {color:#000 !important;background:#fff !important;border-color:#444 !important;border-width:1px !important;text-shadow:none !important;-webkit-box-shadow:none;box-shadow:none;}
+
+  body{margin:1cm 0;}
+  #container{width:17.2cm;height:auto;}
+  #head2 .container, #head2{height:auto;}
+  #logo{padding:0 0 0.2cm;}
+  #head1 .container, #head2 .container, #body .container, #foot .container{border-width:0px !important;}
+
+  #body{clear:none;}
+  #body .container{overflow:visible;}
+  #logo #title, #page h1{padding:0;}
+  #page h4{position:relative;top:0;}
+
+  #header .container, #body .container, #foot .container, #content, #page{float:none;width:17.2cm;padding:0;margin:0;}
+  #column, #head2, #back, #contactPanel, #socialButtons, #plusOne{display:none;}
+}
+
+
+/* INDEX PAGE STYLE */
+.index #content {width:760px;}
+.index #column {float:right;margin:0px 0px 0 20px;}
+.index #options {display:none;}
+
+.contact #content {width:100%;}
+.contact #page div.content {width:580px;float:right;} 
+.contact #page div.content p {float:left;width:48%;text-align:left;}
+.contact .pages {clear:right;}
+.contact .iframe {float:right;width:548px;border:1px solid #e2e2e2;padding:10px 10px 8px;background:#f5f5f5;margin:10px 0px 0px;}

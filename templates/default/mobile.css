@@ -1,0 +1,61 @@
+/*
+Quick.Cms mobile default stylesheet
+*/
+body,h1,h2,h3,h4,h5,h6,p,form,fieldset,img,ul{margin:0;padding:0;border:0;}
+body,table{background-color:#fff;color:#000;font-size:0.688em;font-family:Verdana,Arial;}
+table{font-size:1em;}
+
+.input, select, textarea{padding:1px;font:normal 1em Arial, sans-serif;}
+.submit{padding:1px 3px;font:normal 1em Arial, sans-serif;}
+.hide{display:none;}
+
+.skiplink{margin-bottom:5px;}
+
+#menu1{margin:2px 0;padding:2px;background:#6988b1;}
+#menu1{background:#f3f2f1;}
+#menu1 li{display:inline;margin:0;padding:3px;}
+
+#logo #title a{font-weight:bold;font-size:1.091em;}
+
+#column .type{font-weight:bold;}
+#menu2{margin-bottom:3px;border-top:1px solid #f3f2f1;border-bottom:1px solid #f3f2f1;}
+#menu2 ul{margin-left:7px;list-style:none;}
+
+#page h1{padding:3px 0;font-weight:bold;font-size:1.545em;}
+
+#page div.content ul, .subpagesList li ol{margin:0 0 0 20px;}
+
+.pages{padding:3px 0;}
+.pages ul, .pages li{display:inline;}
+.pages li{padding:0 2px;}
+
+.imagesList{margin:4px 0;padding:0 3px 3px;list-style:none;background:#f8f8f7;border-top:1px solid #e6e3e3;border-bottom:1px solid #e6e3e3;}
+.imagesList li img{margin:5px 0 0;}
+
+#imagesList1{float:left;margin:5px 5px 0 0;}
+#imagesList2{clear:right;float:right;margin:5px 0 0 5px;}
+
+#filesList{margin:5px 0 5px 10px;list-style:none;}
+#filesList li{margin:0 0 5px;}
+#filesList img{margin:0 3px 0 0;vertical-align:middle;}
+
+.subpagesList{margin:4px 0;list-style:none;}
+.subpagesList li{margin:2px 0;}
+.subpagesList li h2{font-weight:bold;font-size:1.182em}
+
+#options{clear:both;margin:5px 0;}
+#options a{padding:0 5px 0 0;}
+#options .back{display:inline;}
+#options .print{display:none;}
+
+.message h3{padding:20px 0 10px;color:red;font-size:1.182em;font-weight:bold;}
+
+.subpagesList{float:left;width:100%;margin:5px 0;list-style:none;}
+.subpagesList li{clear:left;float:left;width:100%;margin:2px 0;padding:3px 0;background:#f9f9f9;}
+.subpagesList li .photo{float:left;margin:0 5px 2px 0;}
+.subpagesList li h2{font-size:1.091em;font-weight:bold;}
+.subpagesList li .description{font-size:1em;font-weight:normal;}
+.subpagesList li h6{font-size:0.909em;font-weight:normal;}
+
+#foot{clear:both;}
+/* PLUGINS */
